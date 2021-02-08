@@ -2,7 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 
-public class LogInTests extends TestBase {
+public class LogInTests extends BaseTest {
 	
 	@Test
 	public void logIn() throws InterruptedException {
