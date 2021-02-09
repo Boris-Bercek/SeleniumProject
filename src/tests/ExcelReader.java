@@ -53,10 +53,10 @@ public class ExcelReader {
 		return value;
 	}
 	
-	public  void asertovanje(String sheetName, int row , int column , String textSaSajta) {
+	public  void asserting(String sheetName, int row , int column , String textSaSajta) {
 		String textIzTabele = getData(sheetName, row, column); 
 		Assert.assertEquals(textSaSajta, textIzTabele);
-		System.out.println("Asertovanje uspesno");
+		//System.out.println("Asertovanje uspesno");
 	
 	}
 
